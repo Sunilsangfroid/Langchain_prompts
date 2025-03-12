@@ -29,6 +29,9 @@ Prompts are the input instructions or queries given to a model to guide its outp
     b. Human messages
     c. AI messages
 
+- Message placeholder
+   In lang-chain it is a special placeholder used inside a ChatpromptTemplate to dynamically insert chat history or a ist of messages at runtime.
+
 
 
 
