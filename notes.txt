@@ -2,4 +2,30 @@ Prompts are the input instructions or queries given to a model to guide its outp
 - 2 types. A. Text Based(only text) and B. Multimodal Prompts(beyond text we can use audio,image and video)
 - LLM's output much relied upon given prompts, which is one of important field in modern era.
 - Based on usage it of two types; i.e static and dynamic prompts
-- 
+
+- Please summarize the research paper titled "{paper_input}" with the following specifications:
+    Explanation Style: {style_input}
+    Explanation Length: {length_input}
+    1. Mathematical Details:
+        - Include relevant mathematical equations if present in the paper.
+        - Explain the mathematical concepts using simple, intuitive code snippets where applicable.
+    2. Analogies:
+        - Use relatable analogies to simplify complex ideas.
+    If certain information is not available in the paper, respond with: "Insufficient information available" instead of guessing.
+    Ensure the summary is clear, accurate, and aligned with the provided style and length.
+
+- Prompt Template
+    A PromptTemplate in LangChain is a structured way to create prompts dynamically by inserting variables into a predefined template. Instead of hardcoding prompts, PromptTemplate allows you to define placeholders that can be filled in at runtime with different inputs.
+
+    This makes it reusable, flexible, and easy to manage, especially when working with dynamic user inputs or automated workflows.
+
+    Why use PromptTemplate over f strings?
+        -Default validation
+        -Reusable
+        -LangChain Ecosystem
+
+
+
+
+
+
