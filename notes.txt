@@ -24,7 +24,10 @@ Prompts are the input instructions or queries given to a model to guide its outp
         -Reusable
         -LangChain Ecosystem
 
-
+- 3 Types of messages. 
+    a. System messages
+    b. Human messages
+    c. AI messages
 
 
 
