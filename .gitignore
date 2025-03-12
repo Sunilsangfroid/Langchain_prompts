@@ -1,0 +1,51 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variable files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore VSCode specific files
+.vscode/
+
+# Ignore PyCharm specific files
+.idea/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/

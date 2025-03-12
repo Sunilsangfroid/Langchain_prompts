@@ -1,0 +1,5 @@
+Prompts are the input instructions or queries given to a model to guide its output.
+- 2 types. A. Text Based(only text) and B. Multimodal Prompts(beyond text we can use audio,image and video)
+- LLM's output much relied upon given prompts, which is one of important field in modern era.
+- Based on usage it of two types; i.e static and dynamic prompts
+- 
