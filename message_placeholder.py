@@ -14,6 +14,8 @@ with open('chat_history.txt') as f:
     
 print(chat_history)
 
+
+print("\n")
 # create prompt
 prompt = chat_template.invoke({'chat_history':chat_history,'query':'What is the status of my order?'})
 
